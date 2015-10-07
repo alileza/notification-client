@@ -1,7 +1,7 @@
 {
   "name": "mail-client",
-  "version": "0.0.5",
-  "description": "",
+  "version": "0.0.6",
+  "description": "This is just a simple http request, to simplify trigger [Mail Server](https://github.com/alileza/mail-server) send an email.",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

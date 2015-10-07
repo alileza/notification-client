@@ -10,7 +10,7 @@ $ npm install mail-client --save
 
 ### Example
 #### Using Coffeescript
-```
+``` coffeescript
 #!coffeescript
 
 MailClient = require 'mail-client'
