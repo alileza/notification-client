@@ -2,9 +2,9 @@ request = require 'request'
 
 class NotificationClient
 	constructor: ({ host, port }) ->
-		@host = host
-		@port = port
-
+		@host = if host then host else 'localhost'
+		@port = if port then port else 1312
+ 
 	sendmail: (body, cb) ->
 		request 
 			method: 'POST'
@@ -17,10 +17,5 @@ class NotificationClient
 			
 			return cb null, message
 
-NC = new NotificationClient
-			host: "localhost"
-			port: 1312
 
-NC.sendmail {}, (err, response) ->
-	console.dir response
 	# console.dir response
