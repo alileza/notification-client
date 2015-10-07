@@ -8,7 +8,7 @@ class NotificationClient
 	sendmail: (body, cb) ->
 		request 
 			method: 'POST'
-			uri: "http://#{@host}:#{@port}/send-mail?#{Math.random()}"
+			uri: "http://#{@host}:#{@port}/send-mail"
 			headers: { 'Content-Type' : 'application/json' }
 			body: JSON.stringify body
 		, (err, response, body) ->
@@ -18,4 +18,4 @@ class NotificationClient
 			return cb null, message
 
 
-	# console.dir response
+exports.NotificationClient = NotificationClient
