@@ -1,0 +1,22 @@
+{
+  "name": "mail-client",
+  "version": "0.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alileza/mail-client"
+  },
+  "author": "Ali Reza <alirezayahya@gmail.com> (https://github.com/alileza)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alileza/mail-client/issues"
+  },
+  "dependencies": {
+    "coffee-script": "^1.10.0",
+    "request": "^2.64.0"
+  }
+}
