@@ -18,4 +18,4 @@ class NotificationClient
 			return cb null, message
 
 
-exports.NotificationClient = NotificationClient
+module.exports = NotificationClient

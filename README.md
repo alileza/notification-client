@@ -1,20 +1,31 @@
-# mail-client
+# Mail Client
 
-## Installation
+This is just a simple http request, to simplify trigger [Mail Server](https://github.com/alileza/mail-server) send an email.
 
+### Installation
+
+```sh
+$ npm install mail-client --save
 ```
-npm install mail-client --save
-```
 
-## coffee example
+### Example
+#### Using Coffeescript
 ```
-NotificationClient = require 'mail-client'
+#!coffeescript
 
-NC = new NotificationClient
+MailClient = require 'mail-client'
+
+client = new MailClient
 			host: "localhost"
 			port: 1312
 
-NC.sendmail {}, (err, response) ->
-	console.dir response
-```	
+client.sendmail {}, (err, response) ->
+	if err
+		return console.error err
+
+	console.log response
+
+```
 	
+### Mail Server
+[NodeJS Mail Server](https://github.com/alileza/mail-server)
