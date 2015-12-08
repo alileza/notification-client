@@ -10,7 +10,7 @@ $ npm install mail-client --save
 
 ### Example
 #### Using Coffeescript
-```
+``` coffeescript
 #!coffeescript
 
 MailClient = require 'mail-client'
@@ -26,6 +26,6 @@ client.sendmail {}, (err, response) ->
 	console.log response
 
 ```
-	
+
 ### Mail Server
 [NodeJS Mail Server](https://github.com/alileza/mail-server)
