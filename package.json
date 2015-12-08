@@ -1,0 +1,60 @@
+{
+  "name": "notification-client",
+  "version": "1.0.0",
+  "description": "This is just a simple http request, to simplify trigger [Mail Server](https://github.com/alileza/mail-server) send an email.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alileza/notification-client"
+  },
+  "author": {
+    "name": "Ali Reza",
+    "email": "hi@alileza.me"
+  },
+  "contributors": [
+    {
+      "name": "Ali Reza",
+      "email": "hi@alileza.com",
+      "url": "https://github.com/alileza"
+    },
+    {
+      "name": "Sahabat Ali",
+      "email": "auliaabsarikhalil@gmail.com",
+      "url": "https://github.com/auliaabsarikhalil"
+    }
+  ],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alileza/notification-client/issues"
+  },
+  "dependencies": {
+    "coffee-script": "^1.10.0",
+    "request": "^2.64.0"
+  },
+  "gitHead": "2fe3da79114681e833b5715e13148694b23af087",
+  "_id": "notification-client@0.0.6",
+  "_shasum": "20e64496549dc35bfec5493c768647bd1994d036",
+  "_from": "notification-client@*",
+  "_npmVersion": "1.4.21",
+  "_nodeVersion": "4.1.0",
+  "_npmUser": {
+    "name": "auliaabsarikhalil",
+    "email": "auliaabsarikhalil@gmail.com"
+  },
+  "dist": {
+    "shasum": "20e64496549dc35bfec5493c768647bd1994d036",
+    "tarball": "http://registry.npmjs.org/notification-client/-/notification-client-0.0.6.tgz"
+  },
+  "maintainers": [
+    {
+      "name": "auliaabsarikhalil",
+      "email": "auliaabsarikhalil@gmail.com"
+    }
+  ],
+  "directories": {},
+  "_resolved": "https://registry.npmjs.org/notification-client/-/notification-client-0.0.6.tgz",
+  "homepage": "https://github.com/alileza/notification-client"
+}
